@@ -1,0 +1,293 @@
+body{
+  padding-top: 30px;
+}
+
+.products {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #FF5C00;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.follow-me {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.contact-me {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+nav{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 70px;
+}
+
+li{
+  list-style: none;
+}
+
+.nav-components{
+  transition: all 1s;
+}
+
+.nav-components:hover {
+  color: #FF5C00;
+  cursor: pointer;
+}
+
+strong {
+  transition: all;
+}
+
+strong:hover {
+  cursor: pointer;
+}
+
+.cart-icon {
+  transition: all 1s;
+}
+
+.cart-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.container-1 {
+  background-color: #E9F7EA;
+  padding-left: 70px;
+  padding-top: 60px;
+}
+
+.container-1-text1 {
+  color: #384F46;
+  font-size: 350%;
+  line-height: 1;
+  text-shadow: 2px 2px 3px;
+  padding-bottom: 10px;
+}
+
+.container-1-text2 {
+  font-size: 130%;
+  font-weight: lighter;
+}
+
+.shop-below {
+  font-weight: bold;
+  border-radius: 4px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 90%;
+  border: none;
+  color: #ffffff;
+  background-color: #FF5C00;
+  transition: all 1s;
+}
+
+.shop-below:hover {
+  background-color: #c84800;
+}
+
+.container-1-img {
+  margin-left: auto;
+}
+
+.first-text {
+  color: #384F46;
+  font-weight: bold;
+}
+
+.number-of-cards {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.numbers {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 0px;
+  width:130px;
+  justify-content: center;
+  color: #BFB6AC;
+}
+
+.number-of-cards-subdiv {
+  border: #384F46 2px solid;
+}
+
+.no {
+  transition: all;
+}
+
+.no:hover {
+  cursor: pointer;
+  color: #FF5C00;
+}
+
+.categories {
+  padding-left: 50px;
+  position: relative;
+}
+
+.social-logos{
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  top: 96%;
+  left: 50%;
+}
+
+.category-button{
+  color: black;
+  border: black 2px solid;
+  background-color: mintcream;
+}
+
+.category-container {
+  padding-top: 30px;
+  background-color: mintcream;
+}
+
+.row-two {
+  padding-top: 30px;
+}
+
+.item-img {
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 42%;
+  right: 5%;
+  background-color: #ffffff;
+  transition: all 1s;
+}
+
+.add-to-cart:hover {
+  transform: rotate(-30deg);
+}
+
+.items {
+  position: relative;
+  width: 310px;
+  height: 450px;
+  background-color: #ffffff;
+  gap: 20px;
+}
+
+.item-title{
+  margin-left: 30px;
+}
+
+.price{
+  margin-left: 30px;
+  color: maroon;
+  font-size: 120%;
+  font-weight: lighter;
+}
+
+.inner-div {
+  display: flex;
+}
+
+.right-inner-div {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.order-button {
+  border-radius: 4px;
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #297154;
+  color: #ffffff;
+  transition: all 1s;
+}
+
+.order-button:hover {
+  background-color: #244d3c;
+}
+
+.button-text {
+  margin-right: 10px;
+}
+
+.item-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-container {
+  background-color: #384F46;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+
+.left-div-header {
+  color: #F5B102;
+  font-weight: bolder;
+  font-size: 400%;
+}
+
+.text-content {
+  color: #ffffff;
+  font-size: 150%;
+  font-weight: lighter;
+  line-height: 26px;
+}
+
+.img-div {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-divider {
+  width: 1px;
+  background-color: #ffffff;
+  color: #ffffff;
+  float: left;
+}
+
+.right-div-text{
+  color: #ffffff;
+  font-size: 270%;
+  font-weight: lighter;
+}
+
+.right-div-text2 {
+  padding-left: 60px;
+  display: flex;
+  gap: 30px;
+  font-weight: lighter;
+}
+
+.div2-content {
+  color: #ffffff;
+}
+
+.middle-div {
+  padding-top: 30px;
+}
